@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    // File Layout
+    "module": "nodenext",
+    "target": "esnext",
+    "types": [],
+    //"outDir": "./dist",
+    //"rootDir": "./src"
+    //OVA DVA DODATA
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+  
+    // Other Outputs
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Stricter Typechecking Options
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    // Recommended Options
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+  }
+}

@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# environment variables (API keys, JWT secrets, DB password)
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# build output
+dist/
+backend/dist/
+frontend/dist/
+
+# logs
+*.log
+npm-debug.log*
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
